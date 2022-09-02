@@ -634,8 +634,8 @@ img {
   transform: translateY(100%);
 }
 
-.gallery-items-block:hover .overlay,
-.gallery-items-block:focus .overlay {
+.gallery-items:hover .overlay,
+.gallery-items:focus .overlay {
   transform: translateY(0);
 }
 .gallery-items-block .overlay-text {
