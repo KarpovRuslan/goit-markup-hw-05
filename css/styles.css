@@ -123,7 +123,7 @@ img {
 
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
 
   transition: width var(--timing) var(--transition-func);
 }
@@ -298,7 +298,7 @@ img {
 .item-label {
   position: relative;
 }
-.item-label::before {
+.section-block-image {
   position: absolute;
   content: "";
   bottom: 0;
